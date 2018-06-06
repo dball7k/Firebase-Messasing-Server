@@ -27,6 +27,7 @@ public class Main {
 
         FileInputStream serviceAccount = new FileInputStream("cubebid_firebase_credentials.json");
 
+        
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                 .setDatabaseUrl("https://cubebid-8a156.firebaseio.com")
