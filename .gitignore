@@ -1,0 +1,17 @@
+# Created by https://www.gitignore.io/api/firebase,netbeans
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+
+
+# End of https://www.gitignore.io/api/firebase,netbeans
